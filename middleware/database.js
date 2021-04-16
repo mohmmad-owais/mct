@@ -20,7 +20,7 @@ async function database(req, res, next) {
   return next();
 }
 
-const middleware = nextConnect();
+const middleware = nextConnect(); 
 
 middleware.use(database);
 
